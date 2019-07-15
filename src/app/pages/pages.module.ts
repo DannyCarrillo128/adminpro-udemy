@@ -13,10 +13,12 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
-import { HorariosComponent } from './horarios/horarios.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { ClaseComponent } from './clase/clase.component';
 
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+
 
 @NgModule({
     declarations: [
@@ -25,8 +27,9 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        HorariosComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent,
+        ClaseComponent
     ],
     exports: [
         DashboardComponent,
