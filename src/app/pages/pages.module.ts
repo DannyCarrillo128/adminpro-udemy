@@ -18,6 +18,8 @@ import { ClaseComponent } from './clase/clase.component';
 
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
         IncrementadorComponent,
         GraficoDonaComponent,
         AccountSettingsComponent,
-        ClaseComponent
+        ClaseComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
